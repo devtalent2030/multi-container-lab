@@ -1,0 +1,26 @@
+# Enforce consistent line endings across platforms
+* text=auto eol=lf
+
+# Handle common file types explicitly
+*.sh      text eol=lf
+*.py      text eol=lf
+*.yml     text eol=lf
+*.yaml    text eol=lf
+*.md      text eol=lf
+*.sql     text eol=lf
+*.dockerfile text eol=lf
+
+# Treat images and binaries as binary (no diff)
+*.png     binary
+*.jpg     binary
+*.jpeg    binary
+*.gif     binary
+*.ico     binary
+*.pdf     binary
+
+# Docker-related
+Dockerfile text eol=lf
+*.env      text eol=lf
+
+# Git / IDE / OS junk (make sure these are in .gitignore too)
+.DS_Store  text eol=lf
