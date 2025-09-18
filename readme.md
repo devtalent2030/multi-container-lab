@@ -64,13 +64,13 @@ docker compose down
   ![docker-compose-ps](./screenshots/docker_compose_s.png)
 
 * **Web app running locally**
-  ![localhost](./screenshots/Localhost8888.png)
+  ![localhost](./screenshots/localhost8888.png)
 
 * **Docker Hub repositories**
-  ![docker-hub](./screenshots/Docker_Hub_Repo.png)
+  ![docker-hub](./screenshots/Docker_hub_repo.png)
 
 * **Scaling to multiple web replicas**
-  ![scaling](./screenshots/Scaling.png)
+  ![scaling](./screenshots/scaling.png)
 
 ---
 
