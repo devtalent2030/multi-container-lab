@@ -1,0 +1,26 @@
+services:
+  web:
+    build: ./web
+    image: nullro0t/lab1-web:latest
+    ports:
+      - "0:8080"   # random host port per replica
+    depends_on:
+      - database
+      - cache
+
+  database:
+    build: ./database
+    image: nullro0t/lab1-db:latest
+    environment:
+      POSTGRES_USER: appuser
+      POSTGRES_PASSWORD: apppass
+      POSTGRES_DB: appdb
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+  cache:
+    build: ./cache
+    image: nullro0t/lab1-cache:latest
+
+volumes:
+  db_data:
