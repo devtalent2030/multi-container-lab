@@ -1,0 +1,57 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# VSCode / IDE configs
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Docker
+*.pid
+*.seed
+*.bak
+
+# Byte-compiled / optimized files
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Coverage / testing
+htmlcov/
+.tox/
+.nox/
+.coverage
+.cache
+pytest_cache/
+.pytest_cache/
